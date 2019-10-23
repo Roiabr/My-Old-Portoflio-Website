@@ -1,0 +1,152 @@
+{% extends 'mySite/base.html' %}
+{% load static %}
+{% block contact %}
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+              integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+              crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <style>
+            .button {
+                background-color: lightblue;
+                border: none;
+                color: white;
+                border-radius: 12px;
+                padding: 10px;
+                text-align: center;
+                font-size: 24px;
+                margin: 4px 2px;
+                opacity: 0.6;
+                transition: 0.3s;
+                display: inline-block;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .button:hover {
+                opacity: 1
+            }
+        </style>
+    </head>
+    <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 mx-auto text-center" style="margin-top: 30px;margin-bottom: 30px">
+                <h4 style="font-family: 'Indie Flower', cursive;color:#484848">Things I have built</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="card-group">
+            <div class="card">
+                <img src="{% static 'mySite/images/packman.png' %}" class="card-img-top" height="275" width="0"
+                     alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Packman Game</h5>
+                    <p class="card-text"> I built this game in Java as part of a project in an object-oriented
+                        course.
+                        The project based on design patterns, multithreading, writing and reading files (CSV, KML)
+                        search and planning algorithms (Dijkstra etc.).</p>
+                    <a target="_blank" href="https://github.com/Roiabr/Packman-Game" class="btn btn-primary">source
+                        code</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{% static 'mySite/images/pong.png' %}" height="420" width="420"
+                     alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Pong Game</h4>
+                    <p class="card-text">
+                        A pong game built with python
+                    </p>
+                    <a target="_blank" href="https://github.com/Roiabr/Pong-Game" class="btn btn-primary">source
+                        code</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{% static 'mySite/images/School.png' %}" height="200" width="200" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">School-Platform</h4>
+                    <p class="card-text">
+                        An android application that built during a Hacketon.
+                        This educational app helps teachers to teach better and the student to understand better
+                    </p>
+                    <a target="_blank" href="https://github.com/Roiabr/Roiabr-School-Platform-Hackathon"
+                       class="btn btn-primary">source code</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{% static 'mySite/images/chat.png' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Chat Application</h4>
+                    <p class="card-text">
+                        This project is based on computer communications (tcp) and Internet protocols and was written in Java.
+                    </p>
+                    <a target="_blank" href="https://github.com/Roiabr/Chat-Assignments"
+                       class="btn btn-primary">source code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+    <div class="col-sm-6 mx-auto text-center" style="margin-top: 30px;margin-bottom: 30px">
+        <h1 style="font-family: 'Indie Flower', cursive;color:#484848">About Me</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 ml-auto about-1">
+                <p class="lead">Currently at my 3rd year of studies for a B.Sc. in Computer Science, looking for a
+                    student developer position.
+                    Responsible, organized, team player, autodidact, work well under pressure on self-directed tasks and
+                    with a team.
+                </p>
+            </div>
+            <div class="col-lg-4 mr-auto about-2">
+                <p class="lead">Also having knowledge in Java, C++, Python, GIT, Linux. </p>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a class="button" href="/static/mySite/Files/Roi_Abramovitch_CV.pdf" download="" style="
+                margin-bottom: 200px;
+            ">
+                <button class="button" style="font-family: 'Indie Flower';color:black"> Download CV</button>
+            </a>
+        </div>
+    </div>
+{#    <footer class="w3-container w3-teal w3-center w3-margin-top">#}
+{#        <p>Find me on social media.</p>#}
+{#        <i class="fa fa-facebook-official w3-hover-opacity"></i>#}
+{#        <i class="fa fa-instagram w3-hover-opacity"></i>#}
+{#        <i class="fa fa-snapchat w3-hover-opacity"></i>#}
+{#        <i class="fa fa-pinterest-p w3-hover-opacity"></i>#}
+{#        <i class="fa fa-twitter w3-hover-opacity"></i>#}
+{#        <i class="fa fa-linkedin w3-hover-opacity"></i>#}
+{#        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>#}
+{#    </footer>#}
+{% endblock %}
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+</html>
