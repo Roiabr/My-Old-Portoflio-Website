@@ -6,7 +6,7 @@ This is a django based, personal portfolio website
 
 #
 built this with the help of attreyabhatt and the [Django (2.1): An Introduction
-for Beginners youtube video](https://www.youtube.com/watch?v=ehCjpQXetgo&list=PLhTjy8cBISEpXc-yjjSW90NgNyPYe7c9_&index=1)
+for Beginners] (https://www.youtube.com/watch?v=ehCjpQXetgo&list=PLhTjy8cBISEpXc-yjjSW90NgNyPYe7c9_&index=1)youtube video
 #
 
 Link: [My Site](https://abramovitchweb.herokuapp.com/)
