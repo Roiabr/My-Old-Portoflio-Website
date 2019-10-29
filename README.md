@@ -1,7 +1,8 @@
 # My-Portoflio-Website
 This is a django based, personal portfolio website
 
-![ביאור 2019-10-24 011833](https://user-images.githubusercontent.com/44756354/67438471-3fa74000-f5fc-11e9-8a25-ba7133de6551.png)
+![ביאור 2019-10-30 014805](https://user-images.githubusercontent.com/44756354/67817786-73c8a800-fab7-11e9-85ca-1d9dca7142f2.png)
+
 
 #
 built this with the help of attreyabhatt and the [Django (2.1): An Introduction
