@@ -21,6 +21,7 @@ from . import views
 urlpatterns = [
     path('',views.index,name="home"),
     path('cv',views.cv,name="cv"),
-   # path('contact',views.contact,name="contact"),
+    path('contactMe',views.contact,name="contactMe"),
     path('portfolio',views.portfolio,name="portfolio"),
+
 ]

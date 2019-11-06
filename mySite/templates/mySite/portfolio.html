@@ -14,27 +14,7 @@
               integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
               crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-        <style>
-            .button {
-                background-color: lightblue;
-                border: none;
-                color: white;
-                border-radius: 12px;
-                padding: 10px;
-                text-align: center;
-                font-size: 24px;
-                margin: 4px 2px;
-                opacity: 0.6;
-                transition: 0.3s;
-                display: inline-block;
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-            .button:hover {
-                opacity: 1
-            }
-        </style>
+        <link href="{% static 'mySite/css/port.css' %}" rel="stylesheet">
     </head>
     <body>
 
@@ -58,7 +38,7 @@
                         course.
                         The project based on design patterns, multithreading, writing and reading files (CSV, KML)
                         search and planning algorithms (Dijkstra etc.).</p>
-                    <a target="_blank" href="https://github.com/Roiabr/Packman-Game" nume = "button">Source
+                    <a class="button" target="_blank" style="text-decoration: none;font-family: 'Indie Flower';color:black"  href="https://github.com/Roiabr/Packman-Game" nume="button2">Source
                         code</a>
                 </div>
             </div>
@@ -70,7 +50,7 @@
                     <p class="card-text">
                         A pong game built with python
                     </p>
-                    <a target="_blank" href="https://github.com/Roiabr/Pong-Game"name="button" id="button">Source Code</a>
+                     <a class="button" target="_blank" style="text-decoration: none;font-family: 'Indie Flower';color:black"  href="https://github.com/Roiabr/Pong-Game"name="button" id="button">Source Code</a>
                 </div>
             </div>
             <div class="card">
@@ -81,8 +61,8 @@
                         An android application that built during a Hacketon.
                         This educational app helps teachers to teach better and the student to understand better
                     </p>
-                    <a target="_blank" href="https://github.com/Roiabr/Roiabr-School-Platform-Hackathon"
-                       class name="button" id="button">source code</a>
+                    < <a class="button" target="_blank" style="text-decoration: none;font-family: 'Indie Flower';color:black"  href="https://github.com/Roiabr/Roiabr-School-Platform-Hackathon"
+                       class name="button2">source code</a>
                 </div>
             </div>
             <div class="card">
@@ -92,8 +72,8 @@
                     <p class="card-text">
                         This project is based on computer communications (tcp) and Internet protocols and was written in Java.
                     </p>
-                    <a target="_blank" href="https://github.com/Roiabr/Chat-Assignments"
-                       name="button" id="button3">source code</a>
+                    <a class="button" target="_blank" style="text-decoration: none;font-family: 'Indie Flower';color:black"  href="https://github.com/Roiabr/Chat-Assignments"
+                      >source code</a>
                 </div>
             </div>
         </div>
@@ -115,7 +95,7 @@
                 </p>
             </div>
             <div class="col-lg-4 mr-auto about-2">
-                <p class="lead">Also having knowledge in Java, C++, Python, GIT, Linux. </p>
+                <p class="lead">Also having knowledge in Java, C++, Python, Git, Github, Linux. </p>
             </div>
         </div>
         <div class="text-center mt-4">
@@ -126,16 +106,7 @@
             </a>
         </div>
     </div>
-{#    <footer class="w3-container w3-teal w3-center w3-margin-top">#}
-{#        <p>Find me on social media.</p>#}
-{#        <i class="fa fa-facebook-official w3-hover-opacity"></i>#}
-{#        <i class="fa fa-instagram w3-hover-opacity"></i>#}
-{#        <i class="fa fa-snapchat w3-hover-opacity"></i>#}
-{#        <i class="fa fa-pinterest-p w3-hover-opacity"></i>#}
-{#        <i class="fa fa-twitter w3-hover-opacity"></i>#}
-{#        <i class="fa fa-linkedin w3-hover-opacity"></i>#}
-{#        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>#}
-{#    </footer>#}
+
 {% endblock %}
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"

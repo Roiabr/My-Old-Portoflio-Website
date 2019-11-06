@@ -30,3 +30,8 @@ def portfolio(request):
 
 def cv(request):
     return render(request, "mySite/cv.html")
+def contactMe(request):
+    return render(request, "mySite/contactMe.html")
+
+
+

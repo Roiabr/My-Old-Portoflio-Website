@@ -20,6 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',index,name="home"),
     path('cv',cv,name="cv"),
-    path('contact',contact,name="contact"),
+    path('contact',contactMe,name="contactMe"),
     path('portfolio',portfolio,name="portfolio"),
 ]
